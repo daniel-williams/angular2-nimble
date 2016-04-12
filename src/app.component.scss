@@ -1,0 +1,15 @@
+// global styles here
+
+a {
+  transition: color .3s;
+  
+  &:hover, &:visited, &:focus {
+    text-decoration: none;
+  }
+  &, &:visited, &:focus {
+    color: orange;
+  }
+  &:hover {
+    color: darken(orange, 10%);
+  }
+}
